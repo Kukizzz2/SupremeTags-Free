@@ -44,7 +44,7 @@ public class TagMenu extends Paged {
 
     @Override
     public int getSlots() {
-        return 54;
+        return 27;
     }
 
     @Override
@@ -217,7 +217,7 @@ public class TagMenu extends Paged {
         }
 
         if (!tag.isEmpty()) {
-            int maxItemsPerPage = 36;
+            int maxItemsPerPage = 9;
 
             int startIndex = page * maxItemsPerPage;
             int endIndex = Math.min(startIndex + maxItemsPerPage, tag.size());
